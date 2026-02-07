@@ -1,0 +1,18 @@
+site_name: Mukesh Zala | AI Systems Engineer
+site_description: AI solutions using LLMs, RAG, and Agentic AI
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Projects:
+      - RAG Chatbot: projects/rag-chatbot.md
+      - Agentic AI: projects/agentic-ai.md
+      - Embeddings: projects/embeddings.md
+  - About: about.md
+  - Contact: contact.md
