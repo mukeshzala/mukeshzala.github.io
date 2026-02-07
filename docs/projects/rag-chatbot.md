@@ -4,7 +4,7 @@
 Describe the problem and business use case.
 
 ## Architecture
-![Architecture](../assets/images/rag-architecture.png)
+
 
 ## Tech Stack
 - Python
