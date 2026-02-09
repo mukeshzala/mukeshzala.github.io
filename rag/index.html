@@ -11,21 +11,25 @@
       
       
       
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="teks-math-ai-tutor/">
       
       
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>RAG Chatbot for Enterprise Knowledge - Mukesh Zala | AI Experimentation Lab</title>
+        <title>Overview - Mukesh Zala | AI Experimentation Lab</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
       
 
@@ -44,7 +48,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rag-chatbot-for-enterprise-knowledge" class="md-skip">
+        <a href="#retrieval-augmented-generation-rag-systems" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +80,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Mukesh Zala | AI Experimentation Lab" class="md-header__button md-logo" aria-label="Mukesh Zala | AI Experimentation Lab" data-md-component="logo">
+    <a href=".." title="Mukesh Zala | AI Experimentation Lab" class="md-header__button md-logo" aria-label="Mukesh Zala | AI Experimentation Lab" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -96,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              RAG Chatbot for Enterprise Knowledge
+              Overview
             
           </span>
         </div>
@@ -169,7 +173,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../.." class="md-tabs__link">
+      <a href=".." class="md-tabs__link">
         
   
   
@@ -186,11 +190,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../rag/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
   
@@ -208,7 +214,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../agentic-ai/" class="md-tabs__link">
+      <a href="../projects/agentic-ai/" class="md-tabs__link">
         
   
   
@@ -227,7 +233,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../contact/" class="md-tabs__link">
+      <a href="../contact/" class="md-tabs__link">
         
   
   
@@ -262,7 +268,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Mukesh Zala | AI Experimentation Lab" class="md-nav__button md-logo" aria-label="Mukesh Zala | AI Experimentation Lab" data-md-component="logo">
+    <a href=".." title="Mukesh Zala | AI Experimentation Lab" class="md-nav__button md-logo" aria-label="Mukesh Zala | AI Experimentation Lab" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -280,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -304,26 +310,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -341,7 +352,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -356,10 +367,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../rag/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -375,6 +413,65 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#focus-areas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Focus Areas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rag-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RAG Projects
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RAG Projects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#teks-math-ai-tutor-grade-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📘 TEKS Math AI Tutor – Grade 5
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -387,7 +484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../rag/teks-math-ai-tutor/" class="md-nav__link">
+      <a href="teks-math-ai-tutor/" class="md-nav__link">
         
   
   
@@ -422,7 +519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agentic-ai/" class="md-nav__link">
+      <a href="../projects/agentic-ai/" class="md-nav__link">
         
   
   
@@ -449,7 +546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../contact/" class="md-nav__link">
+      <a href="../contact/" class="md-nav__link">
         
   
   
@@ -496,10 +593,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#focus-areas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Overview
+        Focus Areas
       
     </span>
   </a>
@@ -507,68 +604,30 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#architecture" class="md-nav__link">
+  <a href="#rag-projects" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Architecture
+        RAG Projects
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RAG Projects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#teks-math-ai-tutor-grade-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📘 TEKS Math AI Tutor – Grade 5
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#tech-stack" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tech Stack
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#approach" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Approach
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#evaluation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evaluation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#demo" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Demo
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#learnings" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Learnings
-      
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -589,35 +648,33 @@
 
 
 
-<h1 id="rag-chatbot-for-enterprise-knowledge">RAG Chatbot for Enterprise Knowledge</h1>
-<h2 id="overview">Overview</h2>
-<p>Describe the problem and business use case.</p>
-<h2 id="architecture">Architecture</h2>
-<h2 id="tech-stack">Tech Stack</h2>
+<h1 id="retrieval-augmented-generation-rag-systems">Retrieval-Augmented Generation (RAG) Systems</h1>
+<p>This section groups my work on <strong>Retrieval-Augmented Generation (RAG)</strong>—
+with an emphasis on <strong>grounded, constrained, and explainable AI systems</strong>.</p>
+<p>Rather than treating RAG as a single pattern, I explore it as a design space
+involving trade-offs across retrieval quality, chunking strategy,
+embedding selection, and context management.</p>
+<hr />
+<h2 id="focus-areas">Focus Areas</h2>
 <ul>
-<li>Python</li>
-<li>Hugging Face</li>
-<li>LangChain</li>
-<li>FAISS</li>
+<li>Curriculum- and domain-grounded retrieval</li>
+<li>Anti-hallucination techniques</li>
+<li>Schema-enforced responses</li>
+<li>Vector database design</li>
+<li>Prompt and retrieval orchestration</li>
 </ul>
-<h2 id="approach">Approach</h2>
+<hr />
+<h2 id="rag-projects">RAG Projects</h2>
+<h3 id="teks-math-ai-tutor-grade-5">📘 TEKS Math AI Tutor – Grade 5</h3>
+<p><strong>Curriculum-grounded RAG system aligned with official TEKS standards</strong></p>
 <ul>
-<li>Chunking strategy</li>
-<li>Embedding model</li>
-<li>Retrieval flow</li>
-<li>Prompt engineering</li>
+<li>Scope-restricted knowledge base</li>
+<li>Strict JSON response schema</li>
+<li>Designed to prevent non-curriculum hallucinations</li>
 </ul>
-<h2 id="evaluation">Evaluation</h2>
-<ul>
-<li>Accuracy</li>
-<li>Latency</li>
-<li>Cost considerations</li>
-</ul>
-<h2 id="demo">Demo</h2>
-<p>👉 Hugging Face Space<br />
-👉 GitHub Repository  </p>
-<h2 id="learnings">Learnings</h2>
-<p>Key tradeoffs and future improvements.</p>
+<p>👉 <a href="teks-math-ai-tutor/">View Project</a></p>
+<hr />
+<p>Future RAG projects will continue to build on these patterns and learnings.</p>
 
 
 
@@ -667,10 +724,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

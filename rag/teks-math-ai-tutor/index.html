@@ -1,0 +1,1537 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI solutions using LLMs, RAG, and Agentic AI">
+      
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../../projects/agentic-ai/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>TEKS Math AI Tutor - Mukesh Zala | AI Experimentation Lab</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#teks-math-ai-tutor-grade-5" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Mukesh Zala | AI Experimentation Lab" class="md-header__button md-logo" aria-label="Mukesh Zala | AI Experimentation Lab" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mukesh Zala | AI Experimentation Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TEKS Math AI Tutor
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  RAG Systems
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../projects/agentic-ai/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Agentic AI
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contact/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contact
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Mukesh Zala | AI Experimentation Lab" class="md-nav__button md-logo" aria-label="Mukesh Zala | AI Experimentation Lab" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Mukesh Zala | AI Experimentation Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RAG Systems
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    RAG Systems
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TEKS Math AI Tutor
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TEKS Math AI Tutor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📖 Project Description
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📖 Project Description">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧠 System Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧠 System Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-level-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 High-Level Flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rag-architecture-diagrams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 RAG Architecture Diagrams
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 RAG Architecture Diagrams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-loading-documents-into-vector-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ Loading Documents into Vector Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-user-interface-api-llm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ User Interface → API → LLM
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#knowledge-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📚 Knowledge Base
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📚 Knowledge Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scope-restriction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scope Restriction
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jupyter-notebook-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📓 Jupyter Notebook Workflow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sample-request-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 Sample Request &amp; Response
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 Sample Request &amp; Response">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Question
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-response-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Response (Example)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#response-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📄 Response Schema
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accuracy-anti-hallucination-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ACCURACY / ANTI-HALLUCINATION RULES:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hugging-face-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ☁️ Hugging Face Deployment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Local Setup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-scope-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Future Scope &amp; Enhancements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Future Scope &amp; Enhancements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functional-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔮 Functional Enhancements
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Technical Enhancements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Technical Enhancements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#retrieval-quality-dependence-add-structured-logging-across-the-system-including" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 Retrieval Quality Dependence Add structured logging across the system, including:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limited-context-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 Limited Context Window
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limited-personalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 Limited Personalization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-answer-verification-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 No Answer Verification Layer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disclaimer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚠️ Disclaimer
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/agentic-ai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agentic AI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📖 Project Description
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📖 Project Description">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧠 System Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧠 System Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-level-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 High-Level Flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rag-architecture-diagrams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 RAG Architecture Diagrams
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔹 RAG Architecture Diagrams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-loading-documents-into-vector-database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1️⃣ Loading Documents into Vector Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-user-interface-api-llm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2️⃣ User Interface → API → LLM
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#knowledge-base" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📚 Knowledge Base
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📚 Knowledge Base">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scope-restriction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scope Restriction
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jupyter-notebook-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📓 Jupyter Notebook Workflow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sample-request-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧪 Sample Request &amp; Response
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧪 Sample Request &amp; Response">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-question" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Question
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-response-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Response (Example)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#response-schema" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📄 Response Schema
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accuracy-anti-hallucination-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ACCURACY / ANTI-HALLUCINATION RULES:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hugging-face-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ☁️ Hugging Face Deployment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Local Setup
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🎯 Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-scope-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀 Future Scope &amp; Enhancements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Future Scope &amp; Enhancements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#functional-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔮 Functional Enhancements
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-enhancements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Technical Enhancements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Technical Enhancements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#retrieval-quality-dependence-add-structured-logging-across-the-system-including" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 Retrieval Quality Dependence Add structured logging across the system, including:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limited-context-window" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 Limited Context Window
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#limited-personalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 Limited Personalization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-answer-verification-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔹 No Answer Verification Layer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disclaimer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚠️ Disclaimer
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="teks-math-ai-tutor-grade-5">TEKS Math AI Tutor – Grade 5</h1>
+<p>A <strong>Retrieval-Augmented Generation (RAG)</strong> based AI tutoring system built exclusively for<br />
+<strong>Grade 5 Mathematics</strong>, aligned with the<br />
+<strong>Texas Essential Knowledge and Skills (TEKS)</strong> curriculum.</p>
+<p>📘 Curriculum Reference:<br />
+<a href="https://tea.texas.gov/academics/curriculum-standards/teks/grade5-teks-062024-0.pdf" target="_blank" rel="noopener">
+Reference (TEKS Grade 5 Math Curriculum – PDF)
+</a></p>
+<p>This project uses <strong>curriculum-grounded retrieval</strong> to ensure accurate, grade-appropriate, and explainable math responses for students, parents, and teachers.</p>
+<hr />
+<h2 id="project-description">📖 Project Description</h2>
+<p>The <strong>TEKS Math AI Tutor</strong> is designed to answer Grade 5 mathematics questions using <strong>only official TEKS curriculum content</strong>.</p>
+<h3 id="key-capabilities">Key Capabilities</h3>
+<ul>
+<li>Retrieves relevant TEKS standards from a <strong>vector database</strong></li>
+<li>Uses a <strong>Large Language Model (LLM)</strong> with retrieved context</li>
+<li>Produces responses in a <strong>strict JSON schema</strong></li>
+<li>Prevents hallucinations by disallowing non-curriculum knowledge</li>
+</ul>
+<hr />
+<h2 id="system-architecture">🧠 System Architecture</h2>
+<h3 id="high-level-flow">🔹 High-Level Flow</h3>
+<ol>
+<li>TEKS Grade 5 Math document ingestion  </li>
+<li>Text cleaning and chunking  </li>
+<li>Embedding generation  </li>
+<li>Vector database creation  </li>
+<li>Query-time retrieval (Top-K relevant chunks)  </li>
+<li>Prompt + retrieved context sent to LLM  </li>
+<li>Structured JSON response returned  </li>
+</ol>
+<hr />
+<h3 id="rag-architecture-diagrams">🔹 RAG Architecture Diagrams</h3>
+<h4 id="1-loading-documents-into-vector-database">1️⃣ Loading Documents into Vector Database</h4>
+<p>Documents → Chunking → Embeddings → Vector DB</p>
+<p><img alt="Documents to Vector Database" src="../../assets/images/teks-math-ai-tutor/docs_vector.png" /></p>
+<h4 id="2-user-interface-api-llm">2️⃣ User Interface → API → LLM</h4>
+<p>User Query → Retriever → Prompt + Context → LLM → JSON Response</p>
+<p><img alt="UI to API Flow" src="../../assets/images/teks-math-ai-tutor/UI_APID.png" /></p>
+<hr />
+<h2 id="knowledge-base">📚 Knowledge Base</h2>
+<ul>
+<li><strong>Texas Essential Knowledge and Skills (TEKS) – Grade 5 Mathematics</strong></li>
+<li>Curriculum text is chunked and embedded</li>
+<li>Each response references a relevant TEKS standard</li>
+</ul>
+<h3 id="scope-restriction">Scope Restriction</h3>
+<ul>
+<li>Grade 5 Math only  </li>
+<li>No external knowledge  </li>
+</ul>
+<hr />
+<h2 id="jupyter-notebook-workflow">📓 Jupyter Notebook Workflow</h2>
+<p>The <img alt="Jupyter Notebook" src="/src/backend/Grade5_Math_Project.ipynb" /> includes:</p>
+<ul>
+<li>TEKS document loading</li>
+<li>Text preprocessing and chunking</li>
+<li>Embedding creation</li>
+<li>Vector store initialization</li>
+<li>Prompt engineering</li>
+<li>RAG-based question answering tests</li>
+</ul>
+<p>The notebook was used to validate the pipeline before Hugging Face deployment.</p>
+<hr />
+<h2 id="sample-request-response">🧪 Sample Request &amp; Response</h2>
+<h3 id="user-question">User Question</h3>
+<p>Prepare 15 problems on the topic Geometry and Measurement</p>
+<h3 id="model-response-example">Model Response (Example)</h3>
+<pre><code class="language-json">{
+  &quot;type&quot;: &quot;Questions&quot;,
+  &quot;message&quot;: [
+    {
+      &quot;Question&quot;: &quot;What is the shape with four equal sides and four right angles?&quot;,
+      &quot;Answers&quot;: {
+        &quot;A&quot;: &quot;Rectangle&quot;,
+        &quot;B&quot;: &quot;Square&quot;,
+        &quot;C&quot;: &quot;Triangle&quot;,
+        &quot;D&quot;: &quot;Circle&quot;
+      },
+      &quot;CorrectOption&quot;: &quot;B&quot;,
+      &quot;CorrectAnswer&quot;: &quot;Square&quot;
+    }
+  ]
+}
+</code></pre>
+<hr />
+<h2 id="response-schema">📄 Response Schema</h2>
+<pre><code class="language-json">{
+    &quot;type&quot;: &quot;object&quot;,
+    &quot;additionalProperties&quot;: False,
+    &quot;required&quot;: [&quot;type&quot;, &quot;message&quot;],
+    &quot;properties&quot;: {
+      &quot;type&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;enum&quot;: [&quot;Concept&quot;, &quot;Questions&quot;, &quot;Refusal&quot;]},
+      &quot;message&quot;: {
+        &quot;anyOf&quot;: [
+          {&quot;type&quot;: &quot;string&quot;},
+          {
+            &quot;type&quot;: &quot;array&quot;,
+            &quot;maxItems&quot;: 5, 
+            &quot;items&quot;: {
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;additionalProperties&quot;: False,
+              &quot;required&quot;: [&quot;Question&quot;, &quot;Answers&quot;, &quot;CorrectOption&quot;, &quot;CorrectAnswer&quot;],
+              &quot;properties&quot;: {
+                &quot;Question&quot;: {&quot;type&quot;: &quot;string&quot;},
+                &quot;Answers&quot;: {
+                  &quot;type&quot;: &quot;object&quot;,
+                  &quot;additionalProperties&quot;: False,
+                  &quot;required&quot;: [&quot;A&quot;, &quot;B&quot;, &quot;C&quot;, &quot;D&quot;],
+                  &quot;properties&quot;: {
+                    &quot;A&quot;: { &quot;type&quot;: &quot;string&quot; },
+                    &quot;B&quot;: { &quot;type&quot;: &quot;string&quot; },
+                    &quot;C&quot;: { &quot;type&quot;: &quot;string&quot; },
+                    &quot;D&quot;: { &quot;type&quot;: &quot;string&quot; }
+                  }
+                },
+                &quot;CorrectOption&quot;: {&quot;type&quot;: &quot;string&quot;, &quot;enum&quot;: [&quot;A&quot;, &quot;B&quot;, &quot;C&quot;, &quot;D&quot;]},
+                &quot;CorrectAnswer&quot;: {&quot;type&quot;: &quot;string&quot;}
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+
+</code></pre>
+<hr />
+<h2 id="accuracy-anti-hallucination-rules">ACCURACY / ANTI-HALLUCINATION RULES:</h2>
+<p>Do the math carefully. Ensure only one correct option unless the user explicitly asks for multiple correct answers.
+If you detect ambiguity (missing numbers/units), ask ONE clarifying question using: {"type":"Concept","message":"I need one detail to answer: ..."} (Keep it math-only and kid-safe.)</p>
+<p>STYLE GUIDELINES:
+ - Use simple words and short sentences for kids.
+ - For parents/teachers, add a brief note on how to support learning (1–2 sentences).
+ - Avoid unrelated topics, brand names, or personal data requests.</p>
+<hr />
+<h2 id="hugging-face-deployment">☁️ Hugging Face Deployment</h2>
+<p>Backend is deployed on Hugging Face Spaces:</p>
+<p>https://huggingface.co/spaces/TokenTutor/Grade5MathBackend</p>
+<hr />
+<h2 id="local-setup">⚙️ Local Setup</h2>
+<pre><code class="language-bash">git clone https://github.com/TechTrojan/TEKS-Math-AI-Tutor.git
+cd TEKS-Math-AI-Tutor
+pip install -r requirements.txt
+export OPENAI_API_KEY=&quot;your_api_key&quot;
+</code></pre>
+<p>Vector DB creation steps are provided in the Jupyter Notebook.</p>
+<hr />
+<h2 id="use-cases">🎯 Use Cases</h2>
+<ul>
+<li>Grade 5 student tutoring</li>
+<li>Teacher lesson planning</li>
+<li>Curriculum-aligned AI demos</li>
+<li>Educational RAG reference</li>
+</ul>
+<hr />
+<h2 id="future-scope-enhancements">🚀 Future Scope &amp; Enhancements</h2>
+<p>This project is designed with extensibility in mind. The following enhancements outline the planned roadmap to evolve the TEKS Math AI Tutor into a scalable, multi-grade educational platform.</p>
+<hr />
+<h3 id="functional-enhancements">🔮 Functional Enhancements</h3>
+<ul>
+<li><strong>User Authentication &amp; Activity Tracking</strong><br />
+  Introduce secure user authentication (e.g., OAuth or token-based login) to identify users uniquely and maintain session-level context.<br />
+  This will enable:</li>
+<li>User-specific interaction history</li>
+<li>Learning progress tracking</li>
+<li>
+<p>Personalized tutoring experiences</p>
+</li>
+<li>
+<p><strong>Multi-Grade &amp; Multi-Subject Expansion</strong><br />
+  Extend the current Grade 5 Math–only scope to support:</p>
+</li>
+<li>Additional grades (Grades 1–12)</li>
+<li>
+<p>Multiple subjects (Science, English, Social Studies, etc.)<br />
+  Each grade and subject will have isolated curriculum ingestion and retrieval pipelines to preserve accuracy.</p>
+</li>
+<li>
+<p><strong>Enhanced User Interface (UI/UX)</strong><br />
+  Develop a richer and more interactive frontend with:</p>
+</li>
+<li>Chat-based tutoring interface</li>
+<li>Visual explanations (charts, diagrams)</li>
+<li>
+<p>Improved accessibility and mobile responsiveness</p>
+</li>
+<li>
+<p><strong>User Subscription &amp; Interest-Based Notifications</strong><br />
+  Implement a subscription module allowing users to:</p>
+</li>
+<li>Select preferred grades and subjects</li>
+<li>Subscribe to specific topics or skill areas  </li>
+</ul>
+<p>The system will periodically generate and send <strong>relevant practice questions, quizzes, or learning tips</strong> to users via email based on their preferences.</p>
+<hr />
+<h2 id="technical-enhancements">⚙️ Technical Enhancements</h2>
+<h3 id="retrieval-quality-dependence-add-structured-logging-across-the-system-including">🔹 Retrieval Quality Dependence  Add structured logging across the system, including:</h3>
+<ul>
+<li>The quality of generated answers is <strong>highly dependent on the retriever</strong>.</li>
+<li>If relevant curriculum chunks are not retrieved (due to embedding similarity errors or suboptimal chunking), the LLM may produce:</li>
+<li>Incomplete explanations</li>
+<li>Overly generic responses</li>
+<li>There is no secondary validation or reranking mechanism in place.</li>
+</ul>
+<hr />
+<h3 id="limited-context-window">🔹 Limited Context Window</h3>
+<ul>
+<li>Only a <strong>fixed number of top-K retrieved chunks</strong> are passed to the LLM.</li>
+<li>Important curriculum details may be omitted if they fall outside the retrieved context.</li>
+<li>This can impact answers for:</li>
+<li>Multi-step problems</li>
+<li>Broad or cross-topic questions</li>
+</ul>
+<h3 id="limited-personalization">🔹 Limited Personalization</h3>
+<ul>
+<li>The current architecture does not maintain:</li>
+<li>User memory</li>
+<li>Learning history</li>
+<li>Skill progression</li>
+<li>All users receive the same responses for identical queries, regardless of prior interactions.</li>
+</ul>
+<hr />
+<h3 id="no-answer-verification-layer">🔹 No Answer Verification Layer</h3>
+<ul>
+<li>Generated responses are not validated against:</li>
+<li>Rule-based checks</li>
+<li>Mathematical solvers</li>
+<li>Ground-truth answer keys</li>
+<li>Although curriculum grounding reduces hallucinations, <strong>absolute correctness is not guaranteed</strong>.</li>
+</ul>
+<hr />
+<ul>
+<li><strong>Scalable Knowledge Management in Vector Database</strong><br />
+  Enhance the vector database design to:</li>
+<li>Store embeddings segmented by <strong>grade, subject, and curriculum</strong></li>
+<li>Dynamically load and query the appropriate knowledge base at runtime</li>
+<li>Support efficient scaling as new curricula are added  </li>
+</ul>
+<p>This modular approach will enable seamless expansion without impacting existing grade-level accuracy.</p>
+<hr />
+<p>These enhancements aim to transform the project from a single-grade RAG demo into a <strong>full-scale, curriculum-aware AI tutoring platform</strong> suitable for real-world educational deployment.</p>
+<h2 id="disclaimer">⚠️ Disclaimer</h2>
+<p>This project is designed and developed <strong>solely for learning, research, and experimental purposes</strong>.</p>
+<ul>
+<li>The implementation is intended to demonstrate concepts such as <strong>Retrieval-Augmented Generation (RAG)</strong>, curriculum grounding, and AI-based tutoring.</li>
+<li>It is <strong>not intended for commercial use, production deployment, or monetization</strong>.</li>
+<li>The authors make no guarantees regarding accuracy, completeness, or fitness for any commercial or real-world educational deployment.</li>
+<li>Any use of this project beyond educational or experimental contexts is at the user’s own risk.</li>
+</ul>
+<p>All curriculum content referenced remains the property of their respective owners, and this project is <strong>not affiliated with or endorsed by the Texas Education Agency (TEA)</strong>.</p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
